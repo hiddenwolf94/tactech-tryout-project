@@ -1,0 +1,28 @@
+{
+  "name": "fullstact-react-app",
+  "version": "1.0.0",
+  "description": "A fullstack react app, consuming data from a node.js api built with express.js",
+  "main": "server.js",
+  "scripts": {
+    "launch": "node server.js"
+  },
+  "keywords": [
+    "fullstack",
+    "reactjs",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Freddy Febres",
+  "license": "ISC",
+  "dependencies": {
+    "api-iceandfire": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.16",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7"
+  }
+}

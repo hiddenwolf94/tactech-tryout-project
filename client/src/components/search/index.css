@@ -1,0 +1,24 @@
+.main-search {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#filtro {
+    width: 90%;
+    height: 3em;
+    padding: 0 1em 0 1em;
+}
+
+#searchButton {
+    width: 8%;
+    height: 3.3em;
+    background-color: deepskyblue;
+    cursor: pointer;
+}

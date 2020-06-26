@@ -1,0 +1,59 @@
+.Body {
+  display: grid;
+  gap: 1rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-bottom: 1rem;
+}
+
+.card {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 0.7fr;
+  border: darkgrey solid 2px;
+  border-radius: 10px;
+}
+
+.view-btn {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  border: darkgrey solid 2px;
+  border-radius: 10px;
+}
+
+#name {
+  position: absolute;
+  top: 5%;
+  justify-self: center;
+}
+
+#title {
+  position: absolute;
+  top: 12%
+}
+
+#titles {
+  position: absolute;
+  top: 19%
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#btn-back {
+  position: absolute;
+  bottom: 2%;
+  width: 50%;
+  height: 3em;
+}
